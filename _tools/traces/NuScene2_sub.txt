@@ -1,0 +1,72 @@
+=== 0x1402388a0
+; function 0x1402388a0 (208 insns, 3 chunks)
+0x1402388bc: CALL 0x1400acc00 r8="None" rdx="NuClipObject" r9=None
+0x1402388d5: FIELD u16 "m_numItems"   (0x1400d9ba0)
+0x1402389a2:   VERSION cmp 0x22
+0x1402389bc: FIELD u16 "m_items[i].materialIndex"   (0x1400d9ba0)
+0x1402389db: FIELD u16 "m_items[i].transformIndex"   (0x1400d9ba0)
+0x1402389fa: FIELD u16 "m_items[i].lightmapIndex"   (0x1400d9ba0)
+0x140238a19: FIELD u16 "m_items[i].transformIndex"   (0x1400d9ba0)
+0x140238a38: FIELD u16 "m_items[i].meshIndex"   (0x1400d9ba0)
+0x140238a57: FIELD u8 "m_items[i].lightmapType"   (0x1400d9d00)
+0x140238a76: FIELD u8 "m_items[i].transformType"   (0x1400d9d00)
+0x140238a95: FIELD u8 "m_items[i].geomType"   (0x1400d9d00)
+0x140238a9a:   VERSION cmp 0x23
+0x140238aba: FIELD u8 "m_items[i].unused"   (0x1400d9d00)
+0x140238ada: FIELD u8 "m_requiresLightState"   (0x1400d9b10)
+0x140238af3: FIELD u8 "m_isFaceon"   (0x1400d9b10)
+0x140238b1c: FIELD u32 "oldGeomIndex"   (0x1400d9b90)
+0x140238b39: FIELD u32 "oldMaterialIndex"   (0x1400d9b90)
+0x140238bec: FIELD u32 "None"   (0x1400d9b90)
+0x140238c09: FIELD u32 "oldMaterialIndex"   (0x1400d9b90)
+=== 0x140203760
+; function 0x140203760 (294 insns, 7 chunks)
+0x140203799: FIELD u16 "m_name"   (0x1400da710)
+0x1402037ba: FIELD u32 "dummy"   (0x1400d9b90)
+0x1402037db: FIELD u32 "dummy"   (0x1400d9b90)
+0x1402037f7: FIELD u32 "m_jointArrayIndex"   (0x1400d9c50)
+0x14020380f: FIELD u32 "m_localBoundsCentre"   (0x1400dafe0)
+0x140203828: FIELD u32 "m_localBoundsExtents"   (0x1400dafe0)
+0x140203860: FIELD u32 "junk"   (0x1400d9b90)
+0x140203879: FIELD u32 "junk"   (0x1400d9b90)
+0x140203892: FIELD u32 "junk"   (0x1400d9b90)
+0x1402038ab: FIELD u32 "junk"   (0x1400d9b90)
+0x1402038e2: FIELD u32 "id"   (0x1400d9b90)
+0x140203917: FIELD u32 "size"   (0x1400d9b90)
+0x140203a1a: FIELD u32 "m_initialTransform"   (0x1400da280)
+0x140203a3d: FIELD u32 "m_distanceFadeModulate"   (0x1400db110)
+0x140203a56: FIELD u32 "m_distanceFadeDistance"   (0x1400db110)
+0x140203a73:   VERSION cmp 0xcb
+0x140203a95: FIELD u8 "m_distanceFadeEnabled"   (0x1400d9b10)
+0x140203a9f:   VERSION cmp 0xcf
+0x140203b45:   VERSION cmp 0xd1
+0x140203c0c:   VERSION cmp 0xd9
+0x140203c3e: FIELD u8 "None"   (0x1400d9b10)
+=== 0x1402004b0
+; function 0x1402004b0 (117 insns, 3 chunks)
+=== 0x140239ef0
+; function 0x140239ef0 (232 insns, 1 chunks)
+0x140239f2b: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x140239f4a: CALL 0x1400acc00 r8="None" rdx="NuLightmapDataBlock" r9=None
+0x140239f6d: FIELD u32 "m_type"   (0x1400d9b90)
+0x140239f84: FIELD u32 "dummyInt"   (0x1400d9b90)
+0x140239f9b: CALL 0x14021e380 r8="None" rdx="m_directionalTIDs[0]" r9=None
+  ; function 0x14021e380 (32 insns, 1 chunks)
+  0x14021e3b0: FIELD u32 "None"   (0x1400d9c50)
+  0x14021e3e7: FIELD u32 "None"   (0x1400d9c50)
+0x140239fb2: CALL 0x14021e380 r8="None" rdx="m_directionalTIDs[1]" r9=None
+0x140239fc9: CALL 0x14021e380 r8="None" rdx="m_directionalTIDs[2]" r9=None
+0x140239fe0: CALL 0x14021e380 r8="None" rdx="m_smoothTID" r9=None
+0x140239ffd: CALL 0x14021e380 r8="None" rdx="m_aoTID" r9=None
+0x14023a016: FIELD u32[2] "dummyFloats"   (0x1400d9b90)
+0x14023a02f: FIELD u32[2] "dummyFloats"   (0x1400d9b90)
+0x14023a055: FIELD u32 "id"   (0x1400d9b90)
+0x14023a07d: FIELD u32 "size"   (0x1400d9b90)
+0x14023a143: FIELD u32 "m_lodScaleOffset[i]"   (0x1400db110)
+0x14023a16e: CALL 0x1400b7b50 r8="None" rdx="m_sgTID[%d]" r9=None
+  ; function 0x1400b7b50 (27 insns, 1 chunks)
+0x14023a1a7: FIELD u32 "None"   (0x1400d9b90)
+0x14023a1bf: FIELD u32 "None"   (0x1400d9b90)
+0x14023a1e3: FIELD u8 "m_atlasIndex[i]"   (0x1400d9d00)
+=== 0x1402396f0
+; function 0x1402396f0 (10 insns, 1 chunks)

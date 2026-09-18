@@ -1,0 +1,258 @@
+; function 0x140203f00 (990 insns, 1 chunks)
+0x140203f39: FIELD u32 "None"   (0x1400d98b0)
+0x140203f54:     ja 0x140203ff9   [cmp r8d, 5]
+0x140203f6c: call 0x1400d9d20
+0x140203f75:     je 0x140203fcf   [test al, 1]
+0x140203f77: call 0x1400bfd70
+0x140203f7f: call 0x1400bfd10
+0x140203fa5: call 0x1400bc7d0
+0x140203fb1:     je 0x140203fbd   [test rax, rax]
+0x140203fb6: call 0x1401fd3c0
+0x140203fbb:     jmp 0x140203fc0
+0x140203fca: call 0x1400d9f10
+0x140203fd2:     je 0x140203fe4   [test bl, 2]
+0x140203fe2: call qword ptr [rax]
+0x140203ff0:     je 0x140203ff9   [test rcx, rcx]
+0x140203ff7: call qword ptr [rax]
+0x140203ff9:   VERSION cmp 0x27
+0x140203ffd:     jae 0x140204018   [cmp dword ptr [rdi + 0x24], 0x27]
+0x140204013: FIELD u32 "materials_size"   (0x1400d9b90)
+0x140204057: FIELD u32 "materialSlots_size"   (0x1400d9b90)
+0x140204062: call 0x140206cc0
+0x14020406d:     jbe 0x140204289   [cmp dword ptr [rbp + 0x6f], esi]
+0x140204084: call 0x1400b6220
+0x14020408e: call 0x1400b6220
+0x140204098: call 0x1400b6220
+0x1402040ad: call 0x1400c0ab0
+0x1402040ca: call 0x1400c0ad0
+0x1402040f8:     je 0x14020416a   [test rsi, rsi]
+0x1402040fd:     je 0x14020416a   [cmp byte ptr [rsi], 0]
+0x14020410e:     jne 0x140204106   [cmp byte ptr [rsi + rax], 0]
+0x140204115:     jne 0x140204127   [test ebx, ebx]
+0x140204125:     jmp 0x14020413e
+0x140204132: call 0x1400b79a0
+0x14020414e: call 0x1435dc710
+0x14020417b: FIELD u16 "dummy_objectIDAsString"   (0x1400da710)
+0x140204191: FIELD u16 "resourceIDAsString"   (0x1400da710)
+0x14020419d:     jne 0x1402041b4   [cmp dword ptr [rdi + 0x144], 0]
+0x1402041af: call 0x1401f6e60
+0x1402041b8:   VERSION cmp 0x28
+0x1402041bc:     jb 0x1402041d6   [cmp dword ptr [rdi + 0x24], 0x28]
+0x1402041cf: FIELD u16 "m_materialSlots[i].name"   (0x1400da710)
+0x1402041d4:     jmp 0x1402041ea
+0x1402041e4: CALL 0x1400c09e0 r8="None" rdx="Material Slot %d" r9=None
+  ; function 0x1400c09e0 (59 insns, 1 chunks)
+  0x1400c0a02: call 0x1400b4d80
+  0x1400c0a27: call 0x1435e8460
+  0x1400c0a44:     jne 0x1400c0a52   [test esi, esi]
+  0x1400c0a49: call 0x1400b40c0
+  0x1400c0a50:     jmp 0x1400c0a63
+  0x1400c0a5c: call 0x1400b79a0
+  0x1400c0a90: call 0x1435e8460
+  0x1400c0aae:     ret
+0x1402041f5:     je 0x14020421a   [cmp qword ptr [rbp - 0x21], rax]
+0x1402041f7: call 0x1400bfd70
+0x1402041ff: call 0x1400bfd10
+0x14020420e: call 0x1400ba2d0
+0x140204229:     je 0x14020424e   [cmp qword ptr [rbp - 0x31], rax]
+0x14020422b: call 0x1400bfd70
+0x140204233: call 0x1400bfd10
+0x140204242: call 0x1400ba2d0
+0x14020425d: call 0x1400b65a0
+0x140204266: call 0x1400b65a0
+0x14020426f: call 0x1400b65a0
+0x14020427b:     jb 0x140204080   [cmp r15d, dword ptr [rbp + 0x6f]]
+0x140204293: call 0x1401ff110
+0x1402042b8: FIELD u32 "id"   (0x1400d9b90)
+0x1402042f6: FIELD u32 "size"   (0x1400d9b90)
+0x140204323:     jbe 0x14020433c   [cmp r8, rdx]
+0x14020432e: call 0x1402012f0
+0x14020433a:     jmp 0x140204357
+0x140204347: call 0x1401fc4f0
+0x140204373:     je 0x1402043b6   [test edx, edx]
+0x140204390: call 0x140204db0
+0x1402043b4:     jb 0x140204380   [cmp ebx, edx]
+0x1402043e7: FIELD u32 "meshes_size"   (0x1400d9b90)
+0x1402043f2: call 0x14014aa20
+0x1402043fe:     jl 0x14020454f   [cmp r14d, 4]
+0x140204408:     jbe 0x14020466c   [cmp dword ptr [rbp + 0x6f], r13d]
+0x140204418:     jae 0x14020442a   [cmp r13, 0xc8]
+0x140204422: call 0x1400db210
+0x140204447: call 0x1400d9d20
+0x140204451:     je 0x1402044b3   [test al, 1]
+0x140204457: call 0x14340bc90
+0x140204466:     je 0x140204489   [cmp qword ptr [rax], rcx]
+0x140204473:     je 0x14020447b   [test rcx, rcx]
+0x140204478: call qword ptr [rdx + 0x28]
+0x140204490:     je 0x1402044a1   [test rcx, rcx]
+0x14020449d: call qword ptr [rax + 0x28]
+0x1402044ac: call 0x1400d9f10
+0x1402044b1:     jmp 0x14020450a
+0x1402044ba:     je 0x14020450a   [test rcx, rcx]
+0x1402044c0: call 0x1401127f0
+0x1402044cf:     je 0x1402044f2   [cmp qword ptr [rax], rcx]
+0x1402044dc:     je 0x1402044e4   [test rcx, rcx]
+0x1402044e1: call qword ptr [rdx + 0x28]
+0x1402044f9:     je 0x14020450a   [test rcx, rcx]
+0x140204506: call qword ptr [rax + 0x28]
+0x14020450e:     je 0x14020451c   [test r12b, 2]
+0x140204517: call 0x14340eb40
+0x140204523:     jae 0x140204530   [cmp r13, 0xc8]
+0x140204528: call 0x1400d9890
+0x140204541:     jb 0x140204411
+0x14020454a:     jmp 0x14020466c
+0x140204553:     jbe 0x14020466c   [cmp dword ptr [rbp + 0x6f], r13d]
+0x140204568: call 0x1400db210
+0x14020458d: call 0x1400d9d20
+0x140204597:     je 0x1402045ed   [test al, 1]
+0x14020459d: call 0x14340bc90
+0x1402045ac:     je 0x1402045c7   [cmp qword ptr [rax], rcx]
+0x1402045b5:     je 0x1402045bd   [test rcx, rcx]
+0x1402045ba: call qword ptr [rdx + 0x28]
+0x1402045ce:     je 0x1402045db   [test rcx, rcx]
+0x1402045d7: call qword ptr [rax + 0x28]
+0x1402045e6: call 0x1400d9f10
+0x1402045eb:     jmp 0x140204638
+0x1402045f4:     je 0x140204638   [test rcx, rcx]
+0x1402045fa: call 0x1401127f0
+0x140204609:     je 0x140204624   [cmp qword ptr [rax], rcx]
+0x140204612:     je 0x14020461a   [test rcx, rcx]
+0x140204617: call qword ptr [rdx + 0x28]
+0x14020462b:     je 0x140204638   [test rcx, rcx]
+0x140204634: call qword ptr [rax + 0x28]
+0x14020463c:     je 0x14020464a   [test r12b, 2]
+0x140204645: call 0x14340eb40
+0x14020464d: call 0x1400d9890
+0x140204666:     jb 0x140204560
+0x140204681: CALL 0x1401fbff0 r8="m_transforms" rdx="None" r9=None
+  ; function 0x1401fbff0 (124 insns, 6 chunks)
+  0x1401fc01a: FIELD u32 "id"   (0x1400d9b90)
+  0x1401fc041: FIELD u32 "size"   (0x1400d9b90)
+  0x1401fc05e:     jbe 0x1401fc158   [cmp rsi, rcx]
+  0x1401fc07a:     jbe 0x1401fc13a   [cmp rsi, rax]
+  0x1401fc096:     jne 0x1401fc09d   [test rcx, rcx]
+  0x1401fc0ab:     je 0x1401fc0cc   [test rbp, rbp]
+  0x1401fc0bb: call 0x1400b9470
+  0x1401fc0ca:     jmp 0x1401fc0cf
+  0x1401fc0d8: call 0x1401fd180
+  0x1401fc0e6: call 0x1401fc8e0
+  0x1401fc0f8:     je 0x1401fc10e   [test rdx, rdx]
+  0x1401fc109: call 0x1400b94f0
+  0x1401fc138:     jmp 0x1401fc164
+  0x1401fc140: call 0x1401fc8e0
+  0x1401fc156:     jmp 0x1401fc164
+  0x1401fc172:     je 0x1401fc1af   [test eax, eax]
+  0x1401fc199: FIELD u32 "None"   (0x1400da280)
+  0x1401fc1ad:     jb 0x1401fc180   [cmp edi, eax]
+  0x1401fc1b7:     ret
+0x140204689:   VERSION cmp 0x23
+0x140204692:     jae 0x140204699
+0x140204699: call 0x1400db210
+0x1402046bd: FIELD u32 "id"   (0x1400d9b90)
+0x1402046e1: FIELD u32 "size"   (0x1400d9b90)
+0x1402046ef: call 0x140201d30
+0x140204707:     je 0x140204735   [test eax, eax]
+0x14020471c: call 0x1402388a0
+0x140204733:     jb 0x140204710   [cmp ebx, eax]
+0x140204738: call 0x1400d9890
+0x14020475d: FIELD u32 "id"   (0x1400d9b90)
+0x14020479f: FIELD u32 "size"   (0x1400d9b90)
+0x1402047ad: call 0x140201c80
+0x1402047de:     je 0x140204822   [test edx, edx]
+0x1402047ef: call 0x140203760
+0x140204820:     jb 0x1402047e0   [cmp ebx, edx]
+0x140204849:     je 0x1402049e5
+0x14020488e:     jne 0x1402048c5   [test ecx, ecx]
+0x140204894:     jae 0x1402048b3   [cmp rcx, 1]
+0x1402048a2: call 0x1402004b0
+0x1402048b1:     jmp 0x1402048bb
+0x1402048c8:   VERSION cmp 0x32
+0x1402048cc:     jae 0x1402049ab   [cmp dword ptr [rdi + 0x24], 0x32]
+0x1402048f3:     je 0x1402049ab   [test edx, edx]
+0x14020490f:     ja 0x140204977   [cmp ebx, 7]
+0x140204940:     jbe 0x14020495d   [cmp rcx, rdx]
+0x14020494c: call 0x1402004b0
+0x14020495b:     jmp 0x140204969
+0x14020499f:     jb 0x140204900   [cmp ebx, edx]
+0x1402049df:     jb 0x140204860   [cmp rax, rdx]
+0x1402049f3:     jb 0x140204a1b   [cmp ecx, 3]
+0x1402049f8:     jae 0x140204a1b   [cmp ecx, 5]
+0x140204a13: FIELD u32 "dummy"   (0x1400d9b90)
+0x140204a1e:     jb 0x140204a3b   [cmp eax, 0xb]
+0x140204a31: CALL 0x1401fc290 r8="m_clipItemUVScaleOffset" rdx="None" r9=None
+  ; function 0x1401fc290 (121 insns, 5 chunks)
+  0x1401fc2bf: FIELD u32 "id"   (0x1400d9b90)
+  0x1401fc2e6: FIELD u32 "size"   (0x1400d9b90)
+  0x1401fc303:     jbe 0x1401fc3e0   [cmp rdi, r8]
+  0x1401fc31a:     jbe 0x1401fc3d7   [cmp rdi, rcx]
+  0x1401fc331:     jne 0x1401fc338   [test r8, r8]
+  0x1401fc346:     je 0x1401fc367   [test rbp, rbp]
+  0x1401fc356: call 0x1400b9470
+  0x1401fc365:     jmp 0x1401fc36a
+  0x1401fc373:     je 0x1401fc396   [cmp rax, rdx]
+  0x1401fc391:     jne 0x1401fc380   [cmp rax, rdx]
+  0x1401fc3a0:     je 0x1401fc3b9   [test r9, r9]
+  0x1401fc3b4: call 0x1400b94f0
+  0x1401fc3d5:     jmp 0x1401fc3eb
+  0x1401fc3de:     jmp 0x1401fc3e7
+  0x1401fc402:     je 0x1401fc43f   [test eax, eax]
+  0x1401fc429: FIELD u32 "None"   (0x1400db110)
+  0x1401fc43d:     jb 0x1401fc410   [cmp esi, eax]
+  0x1401fc447:     ret
+0x140204a36:     jmp 0x140204cf0
+0x140204a3e:     jb 0x140204c13   [cmp eax, 9]
+0x140204a4c: call 0x1400db210
+0x140204a67: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x140204a73: call 0x1400acc80
+0x140204a90: FIELD u32 "id"   (0x1400d9b90)
+0x140204acf: FIELD u32 "size"   (0x1400d9b90)
+0x140204afd:     jbe 0x140204b18   [cmp r9, rdx]
+0x140204b09: call 0x140201100
+0x140204b16:     jmp 0x140204b54
+0x140204b27:     je 0x140204b48   [cmp rbx, rsi]
+0x140204b33: call 0x1402396f0
+0x140204b42:     jne 0x140204b30   [cmp rbx, rsi]
+0x140204b6f:     je 0x140204ba9   [test edx, edx]
+0x140204b7f: call 0x140239ef0
+0x140204ba7:     jb 0x140204b71   [cmp ebx, edx]
+0x140204bac: call 0x1400d9890
+0x140204bbf:     je 0x140204bd9   [cmp rbx, rsi]
+0x140204bc4: call 0x1402396f0
+0x140204bd3:     jne 0x140204bc1   [cmp rbx, rsi]
+0x140204bdc:     je 0x140204c0e   [test rbx, rbx]
+0x140204c08: call 0x1400b94f0
+0x140204c0e:     jmp 0x140204cf0
+0x140204c16:     jb 0x140204cf0   [cmp eax, 8]
+0x140204c28: call 0x1400db210
+0x140204c3f: call 0x1400d9d20
+0x140204c48:     je 0x140204ca6   [test al, 1]
+0x140204c4a: call 0x1400bfd70
+0x140204c52: call 0x1400bfd10
+0x140204c7c: call 0x1400bc7d0
+0x140204c88:     je 0x140204c94   [test rax, rax]
+0x140204c8d: call 0x1402394c0
+0x140204c92:     jmp 0x140204c97
+0x140204ca1: call 0x1400d9f10
+0x140204ca9:     je 0x140204cb7   [test bl, 2]
+0x140204cb2: call 0x14023a270
+0x140204cba: call 0x1400d9890
+0x140204cc9:     je 0x140204cf0   [test rbx, rbx]
+0x140204cce: call 0x140239720
+0x140204cd4: call 0x1400bfd70
+0x140204cdc: call 0x1400bfd10
+0x140204cea: call 0x1400ba2d0
+0x140204cf0:   VERSION cmp 0xd6
+0x140204cf7:     jb 0x140204d14   [cmp dword ptr [rdi + 0x24], 0xd6]
+0x140204d0d: FIELD u8 "m_supportPerInstanceVertexColours"   (0x1400d9b10)
+0x140204d12:     jmp 0x140204d1c
+0x140204d1c:   VERSION cmp 0xd7
+0x140204d23:     jb 0x140204d40   [cmp dword ptr [rdi + 0x24], 0xd7]
+0x140204d39: FIELD u8 "m_supportDeformation"   (0x1400d9b10)
+0x140204d3e:     jmp 0x140204d48
+0x140204d48:   VERSION cmp 0xdc
+0x140204d4f:     jb 0x140204d85   [cmp dword ptr [rdi + 0x24], 0xdc]
+0x140204d65: FIELD u32 "m_lodsSkipped_NXG"   (0x1400d9b90)
+0x140204d7e: FIELD u32 "m_lodsSkipped_MOB"   (0x1400d9b90)
+0x140204d83:     jmp 0x140204d90
+0x140204d93: call 0x1400d9890
+0x140204dae:     ret

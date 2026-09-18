@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+._*
+
+# Editor
+.vscode/
+
+# Game files / extracted assets (large, not source)
+LEGOSTARWARSSKYWALKERSAGA_DX11.exe
+.REDIRECT/
+ABILITIES/
+ASSETS/
+AUDIO/
+AUTOTEST/
+CAMERA/
+CHARS/
+COLLECTABLES/
+COLLIDERS/
+CUT/
+FRAMEWORK-DATA/
+FULLGAMEFLOW.XML
+GLOBAL/
+GRAPHS/
+LEGOTPAGE/
+LEVELS/
+SCRIPTS/
+STANDARDASSETS/
+STUFF/
+SYSTEMS/
+UI/
+_export/
+_export_*.log
+
+# Python tooling artifacts
+_tools/.venv/
+_tools/__pycache__/
+**/__pycache__/
+*.pyc

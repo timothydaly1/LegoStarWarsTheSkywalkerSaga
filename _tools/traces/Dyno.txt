@@ -1,0 +1,76 @@
+; function 0x142c6efc6 (126 insns, 2 chunks)
+0x142c6efe8:     jne 0x142c6f0dd   [cmp dword ptr [rbp + 0x144], 0]
+0x142c6f001: CALL 0x1400bee80 r8="DynoMemory::PoolAlloc()" rdx="None" r9=None
+  ; function 0x1400bee80 (227 insns, 4 chunks)
+  0x1400beec4:     jbe 0x1400bef06   [cmp rsi, 0xff0]
+  0x1400beeca:     jne 0x1400bef06   [cmp dword ptr [rcx + 0x28], 0]
+  0x1400beedb: call 0x1400d6c70
+  0x1400beee2:     je 0x1400beed0   [test al, al]
+  0x1400beefa: call qword ptr [rax + 0x20]
+  0x1400bef05:     ret
+  0x1400bef0b:     je 0x1400bef1d   [test eax, eax]
+  0x1400bef10:     je 0x1400bef1d   [cmp rax, rsi]
+  0x1400bef1c:     ret
+  0x1400bef3f:     jne 0x1400bef54   [test al, al]
+  0x1400bef4a: call 0x1400b95d0
+  0x1400befa1:     jne 0x1400befb9   [test rbx, -2]
+  0x1400befa6:     jne 0x1400bf075   [test r13b, r13b]
+  0x1400befb2: call 0x1400d6c70
+  0x1400befb7:     jmp 0x1400bef80
+  0x1400befbc:     jne 0x1400bf059   [test bl, 1]
+  0x1400befd2: call 0x1400d6c80
+  0x1400befd9:     je 0x1400bef80   [test al, al]
+  0x1400befe4: call 0x1400d6c80
+  0x1400befeb:     jne 0x1400bf002   [test al, al]
+  0x1400beff9: call 0x1400d6c80
+  0x1400bf000:     je 0x1400beff0   [test al, al]
+  0x1400bf01d: call 0x1400d6c70
+  0x1400bf024:     je 0x1400bf010   [test al, al]
+  0x1400bf03f:     je 0x1400bf04d
+  0x1400bf048: call 0x1400b95f0
+  0x1400bf058:     ret
+  0x1400bf060:     jne 0x1400bef80   [test r15w, r15w]
+  0x1400bf06b: call 0x1400c8150
+  0x1400bf070:     jmp 0x1400bef80
+  0x1400bf07e: call 0x1400b95d0
+  0x1400bf091:     je 0x1400bf0a2   [test rdx, rdx]
+  0x1400bf09c:     jbe 0x1400bf129   [cmp rsi, rax]
+  0x1400bf0a8:     je 0x1400bf0ef   [test rdx, rdx]
+  0x1400bf0b3:     je 0x1400bf0ef   [test rcx, rcx]
+  0x1400bf0cc:     jbe 0x1400bf0de   [cmp rsi, rax]
+  0x1400bf0d7:     jne 0x1400bf0c0   [test r8, r8]
+  0x1400bf0dc:     jmp 0x1400bf0ef
+  0x1400bf0f2:     je 0x1400bf104   [test r8, r8]
+  0x1400bf102:     jbe 0x1400bf129   [cmp rsi, rax]
+  0x1400bf122: call qword ptr [rax + 8]
+  0x1400bf12c:     je 0x1400bf16b   [test rdx, rdx]
+  0x1400bf139:     ja 0x1400bf16b   [cmp rsi, rax]
+  0x1400bf169:     jmp 0x1400bf16d
+  0x1400bf17b: call 0x1400b95f0
+  0x1400bf183:     je 0x1400bf026   [test rbp, rbp]
+  0x1400bf189:     jmp 0x1400bf010
+0x142c6f00c: call 0x140392000
+0x142c6f014:     je 0x142c6f023   [test rbx, rbx]
+0x142c6f021:     jmp 0x142c6f026
+0x142c6f02a: call 0x1400d6cd0
+0x142c6f037:     jae 0x142c6f049   [cmp rsi, qword ptr [rdi + 0x10]]
+0x142c6f044:     jmp 0x142c6f0d6
+0x142c6f059:     je 0x142c6f066   [test rax, rax]
+0x142c6f062:     jne 0x142c6f06c   [test r15, r15]
+0x142c6f064:     jmp 0x142c6f08a
+0x142c6f07b: call 0x1400b9470
+0x142c6f093: call 0x1435dc710
+0x142c6f0ae:     je 0x142c6f0c4   [test rdx, rdx]
+0x142c6f0bf: call 0x1400b94f0
+0x142c6f0dd:   VERSION cmp 1
+0x142c6f0ec:     jb 0x142c6f1a1
+0x142c6f106: FIELD u8 "type"   (0x1400d9d00)
+0x142c6f11f: FIELD u8 "numBodies"   (0x1400d9d00)
+0x142c6f138: FIELD u8 "numJoints"   (0x1400d9d00)
+0x142c6f151: FIELD u8 "breakable"   (0x1400d9d00)
+0x142c6f16a: FIELD u16 "FirstBodyIndex"   (0x1400d9ba0)
+0x142c6f183: FIELD u16 "FirstJointIndex"   (0x1400d9ba0)
+0x142c6f19c: FIELD u8 "addtoscene"   (0x1400d9d00)
+0x142c6f1ab:     jl 0x142c6efe1   [cmp r13w, word ptr [rsp + 0x68]]
+0x142c6f1c8: call 0x1400d9890
+0x142c6f1da:     ret

@@ -1,0 +1,112 @@
+; function 0x14340eb40 (509 insns, 1 chunks)
+0x14340eb78:     jb 0x14340eb91   [cmp ax, dx]
+0x14340eb85: FIELD u32 "None"   (0x1400d98b0)
+0x14340eb9b: CALL 0x1400acc00 r8="None" rdx="NuRenderMesh" r9=None
+0x14340ebae: CALL 0x14340b560 r8="m_vbs" rdx="None" r9=None
+  ; function 0x14340b560 (56 insns, 3 chunks)
+  0x14340b581: call 0x1400d9d20
+  0x14340b58a:     je 0x14340b5a6   [test al, 1]
+  0x14340b596: call 0x14012b610
+  0x14340b5a1: call 0x1400d9f10
+  0x14340b5a9:     je 0x14340b602   [test bl, 2]
+  0x14340b5b0:     je 0x14340b602   [test ecx, ecx]
+  0x14340b5c7:     jbe 0x14340b5ce   [cmp ebx, r8d]
+  0x14340b5cc:     jmp 0x14340b5d2
+  0x14340b5d0:     jbe 0x14340b5dc   [cmp ebx, ecx]
+  0x14340b5d7: call 0x14012b610
+  0x14340b5e9: call 0x14340f340
+  0x14340b5fb:     jb 0x14340b5c0   [cmp eax, ecx]
+  0x14340b611:     ret
+0x14340ebc4: CALL 0x14340b560 r8="m_fastBlendVbs" rdx="None" r9=None
+0x14340ebd7: call 0x14340b450
+0x14340ebf0: FIELD u32 "m_ibOffset"   (0x1400d9b90)
+0x14340ec09: FIELD u32 "m_ibCount"   (0x1400d9b90)
+0x14340ec22: FIELD u32 "m_ibBase"   (0x1400d9b90)
+0x14340ec47: FIELD u16 "primType"   (0x1400d9ba0)
+0x14340ec6e: FIELD u32 "m_vbUsedCount"   (0x1400d9b90)
+0x14340ec8e: FIELD u32 "vbInstBitsAsU32"   (0x1400d9b90)
+0x14340ecb1: call 0x1400d9d20
+0x14340ecba:     je 0x14340ecd5   [test al, 1]
+0x14340ecc5: call 0x140237440
+0x14340ecd0: call 0x1400d9f10
+0x14340ecde:     je 0x14340ed36   [test r12b, bl]
+0x14340ece5:     je 0x14340ed36   [test ecx, ecx]
+0x14340ecf7:     jbe 0x14340ecfe   [cmp ebx, r8d]
+0x14340ecfc:     jmp 0x14340ed02
+0x14340ed00:     jbe 0x14340ed0c   [cmp ebx, ecx]
+0x14340ed07: call 0x140237440
+0x14340ed22: FIELD u8 "None"   (0x1400d9d00)
+0x14340ed34:     jb 0x14340ecf0   [cmp eax, ecx]
+0x14340ed4b: call 0x1400d9d20
+0x14340ed59:     je 0x14340ee37   [test al, 1]
+0x14340ed5f: call 0x1400bfd70
+0x14340ed67: call 0x1400bfd10
+0x14340ed90: call 0x1400bc7d0
+0x14340eda1:     je 0x14340ee20   [test rax, rax]
+0x14340edc1: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x14340edcc: call 0x1400acc80
+0x14340edfb: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x14340ee06: call 0x1400acc80
+0x14340ee1e:     jmp 0x14340ee23
+0x14340ee30: call 0x1400d9f10
+0x14340ee3a:     je 0x14340ee4b   [test bl, 2]
+0x14340ee46: call 0x14341a2c0
+0x14340ee54:     jb 0x14340ef47   [cmp r13w, 6]
+0x14340ee71: FIELD u32 "defunctOptFlags"   (0x1400d9b90)
+0x14340eedb: FIELD u32 "m_centreExtents[0]"   (0x1400db110)
+0x14340eef7: FIELD u32 "m_centreExtents[1]"   (0x1400db110)
+0x14340ef4c:     jb 0x14340ef74   [cmp r13w, 8]
+0x14340ef6f: FIELD u32 "densityDiscDiameter"   (0x1400d9b90)
+0x14340ef84:     ja 0x14340f13a   [cmp ax, 0x17]
+0x14340efa5: FIELD u32 "lightmapUVSetIndex"   (0x1400d9c50)
+0x14340efaf:     jne 0x14340f13a   [cmp dword ptr [r15 + 0x40], 1]
+0x14340efbe:     je 0x14340f0d6   [test eax, eax]
+0x14340efca:     jne 0x14340f016   [cmp eax, 1]
+0x14340efe0:     jne 0x14340f0d6   [cmp al, 0x20]
+0x14340f011:     jmp 0x14340f0bb
+0x14340f019:     jne 0x14340f072   [cmp eax, 2]
+0x14340f02a:     jne 0x14340f0d6   [cmp al, 0x10]
+0x14340f070:     jmp 0x14340f0d6
+0x14340f075:     jne 0x14340f0d6   [cmp eax, 3]
+0x14340f08b:     jne 0x14340f0d6   [cmp al, 0x20]
+0x14340f0e2: call 0x14340e550
+0x14340f105:     jne 0x14340f12d   [test al, 7]
+0x14340f109:     je 0x14340f12d   [test al, 0xf8]
+0x14340f114:     ja 0x14340f11f   [cmp eax, 4]
+0x14340f11d:     jmp 0x14340f12b
+0x14340f135:     jne 0x14340f100
+0x14340f142:     ja 0x14340f247   [cmp ax, 0x7f]
+0x14340f173: FIELD u32 "depthBits"   (0x1400d9b90)
+0x14340f17f: call 0x14340f340
+0x14340f196: FIELD u32 "depthVbUsedCount"   (0x1400d9b90)
+0x14340f1a9: call 0x14340b450
+0x14340f1c0: FIELD u32 "depthIbBase"   (0x1400d9b90)
+0x14340f1d7: FIELD u32 "depthIbOffset"   (0x1400d9b90)
+0x14340f1ee: FIELD u32 "depthIbBase"   (0x1400d9b90)
+0x14340f1fa:     je 0x14340f20b   [test rcx, rcx]
+0x14340f200: call 0x14340fe90
+0x14340f212:     je 0x14340f227   [test rax, rax]
+0x14340f21b: call 0x1400b7a80
+0x14340f22a:     je 0x14340f238   [test rax, rax]
+0x14340f22f: call 0x1400b7a80
+0x14340f23b:     je 0x14340f247   [test rcx, rcx]
+0x14340f241: call 0x14340fe90
+0x14340f250:     jae 0x14340f2d3   [cmp r13w, ax]
+0x14340f25b:     jbe 0x14340f2d3   [cmp dword ptr [r15 + 0x40], 0]
+0x14340f269:     jbe 0x14340f270   [cmp ebx, r8d]
+0x14340f26e:     jmp 0x14340f276
+0x14340f274:     jbe 0x14340f281   [cmp ebx, dword ptr [r15 + 0x40]]
+0x14340f27c: call 0x14012b610
+0x14340f297:     je 0x14340f2c4   [test qword ptr [r15 + 0x48], rax]
+0x14340f2a0:     jbe 0x14340f2a7   [cmp ebx, r8d]
+0x14340f2a5:     jmp 0x14340f2ad
+0x14340f2ab:     jbe 0x14340f2b8   [cmp ebx, dword ptr [r15 + 0x40]]
+0x14340f2b3: call 0x14012b610
+0x14340f2d1:     jb 0x14340f262   [cmp eax, dword ptr [r15 + 0x40]]
+0x14340f2dc:     jb 0x14340f2fa   [cmp r13w, ax]
+0x14340f2f5: FIELD u32 "m_lightmapUVHash"   (0x1400d9b90)
+0x14340f2fd: call 0x14340f5a0
+0x14340f305: call 0x1400acc00
+0x14340f313:     jb 0x14340f321   [cmp r13w, ax]
+0x14340f318: call 0x1400d9890
+0x14340f336:     ret

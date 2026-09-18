@@ -1,0 +1,522 @@
+; function 0x1402306e0 (2491 insns, 1 chunks)
+0x14023071d: CALL 0x1400acc00 r8="None" rdx="NuMtl" r9=None
+0x14023072d:     jne 0x140230748   [test eax, eax]
+0x14023073d: FIELD u32 "None"   (0x1400d98b0)
+0x140230756: call 0x1402147f0
+0x140230768:     jb 0x140230777   [cmp eax, 0xf7]
+0x14023076f: FIELD u32 "None"   (0x1400dad20)
+0x140230783:     jb 0x140230982   [cmp eax, 0x1a]
+0x140230792:     je 0x140230982   [cmp ecx, 2]
+0x14023079a:     jne 0x1402308bf   [test ecx, ecx]
+0x1402307a3:     jbe 0x1402307b1   [cmp eax, 0x3b]
+0x1402307ab:     ja 0x1402308bf   [cmp eax, 2]
+0x1402307c8: call 0x1400d9d20
+0x1402307d1:     je 0x140230817   [test al, 1]
+0x1402307d3: call 0x1400bfd70
+0x1402307db: call 0x1400bfd10
+0x140230802: call 0x1400bc7d0
+0x140230812: call 0x1400d9f10
+0x14023081a:     je 0x140230835   [test bl, 2]
+0x140230830: FIELD u8 "m_buffer"   (0x1400d9d00)
+0x140230851: call 0x1400c4d40
+0x14023085f:     je 0x140230869   [cmp byte ptr [rbp + rcx + 0x30], 0]
+0x140230874: call 0x1400b61e0
+0x140230881: call 0x1400b6620
+0x14023088e: call 0x1400b65a0
+0x14023089a:     je 0x1402308ba   [cmp qword ptr [rsp + 0x40], 0]
+0x14023089c: call 0x1400bfd70
+0x1402308a4: call 0x1400bfd10
+0x1402308b4: call 0x1400ba2d0
+0x1402308ba:     jmp 0x140230982
+0x1402308d9:     jne 0x1402308e4   [test rdx, rdx]
+0x1402308e2:     jmp 0x140230937
+0x1402308e7:     je 0x140230937   [cmp byte ptr [rdx], 0]
+0x1402308f8:     jne 0x1402308f0   [cmp byte ptr [rdx + rax], 0]
+0x1402308ff:     jne 0x140230908   [test ecx, ecx]
+0x140230920: call 0x1435dc710
+0x140230948: FIELD u16 "tmp"   (0x1400da880)
+0x140230958: call 0x1400b61e0
+0x140230965: call 0x1400b6620
+0x140230972: call 0x1400b65a0
+0x14023098a:     jb 0x1402309af   [cmp eax, 0x18]
+0x140230991:     jae 0x1402309af   [cmp eax, 0x137]
+0x1402309a7: FIELD u32 "dummy"   (0x1400d9b90)
+0x1402309b5:     jb 0x140230a55   [cmp ecx, 0x113]
+0x1402309e0: FIELD u8 "m_shaderVariantsRequired_Skinning[skinning]"   (0x1400d9b10)
+0x1402309eb:     jne 0x1402309d0
+0x140230a10: FIELD u8 "m_shaderVariantsRequired_Lightmapping[lightmapping]"   (0x1400d9b10)
+0x140230a1b:     jne 0x140230a00
+0x140230a40: FIELD u8 "m_shaderVariantsRequired_Instancing[instancing]"   (0x1400d9b10)
+0x140230a4b:     jne 0x140230a30
+0x140230a50:     jmp 0x140230ad9
+0x140230a71:     jne 0x140230a80   [test eax, 0xfffffffc]
+0x140230a77:     je 0x140230a80   [cmp r8d, 4]
+0x140230a7e:     jmp 0x140230a86
+0x140230ac3:     jne 0x140230acf   [test al, 1]
+0x140230ac8: call qword ptr [rax + 0x48]
+0x140230acd:     jne 0x140230ad9   [cmp al, 0x23]
+0x140230b13:   VERSION cmp 0x113
+0x140230b1a:     jae 0x140230b5c   [cmp dword ptr [rsi + 0x24], 0x113]
+0x140230b35:     jne 0x140230b3e   [test eax, 0xfffffffc]
+0x140230b3c:     jne 0x140230b41
+0x140230b44:     jne 0x140231250   [cmp r8d, edx]
+0x140230b4d:     jne 0x140231250   [cmp r12d, eax]
+0x140230b56:     jne 0x140231250   [test r14, r14]
+0x140230b97: call 0x1435da5f0
+0x140230ba5:     jb 0x140231221   [cmp eax, 0x97]
+0x140230bcf:     jae 0x140230c02   [cmp eax, 0x112]
+0x140230be3: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230bfa: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230c07:     jae 0x140230c23   [cmp eax, 0x102]
+0x140230c1b: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230c28:     jae 0x140230c44   [cmp eax, 0x112]
+0x140230c3c: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230c49:     jae 0x140230c93   [cmp eax, 0x113]
+0x140230c5d: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230c74: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230c8b: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230c98:     jb 0x140230d17   [cmp eax, 0xac]
+0x140230ca5:     jae 0x140230d08   [cmp eax, 0x112]
+0x140230cb3: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230cb8:   VERSION cmp 0x112
+0x140230cbf:     jge 0x140230d17   [cmp dword ptr [rsi + 0x24], 0x112]
+0x140230d06:     jmp 0x140230d17
+0x140230d12: FIELD u32 "shaderHashBundle.storedShaderHashPCDX11"   (0x1400d9b90)
+0x140230d1f:     jb 0x140230d50   [cmp eax, 0x121]
+0x140230d32: FIELD u32 "shaderHashBundle.storedShaderHashPCDX11_NXG"   (0x1400d9b90)
+0x140230d48: FIELD u32 "shaderHashBundle.storedShaderHashPCDX11_MOB"   (0x1400d9b90)
+0x140230d55:     jb 0x140230d73   [cmp eax, 0x165]
+0x140230d6b: FIELD u32 "shaderHashBundle.storedShaderHashPCDX12"   (0x1400d9b90)
+0x140230d78:     jb 0x140230e25   [cmp eax, 0xfe]
+0x140230d89:     jae 0x140230e12   [cmp eax, 0x112]
+0x140230d9b: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230da0:   VERSION cmp 0x112
+0x140230da7:     jge 0x140230e25   [cmp dword ptr [rsi + 0x24], 0x112]
+0x140230e10:     jmp 0x140230e25
+0x140230e20: FIELD u32 "shaderHashBundle.storedShaderHashNNX"   (0x1400d9b90)
+0x140230e33:     jae 0x140230f05   [cmp eax, 0x113]
+0x140230e3e:     jae 0x140230ec7   [cmp eax, 0x112]
+0x140230e50: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230e55:   VERSION cmp 0x112
+0x140230e5c:     jge 0x140230eda   [cmp dword ptr [rsi + 0x24], 0x112]
+0x140230ec5:     jmp 0x140230eda
+0x140230ed5: FIELD u32 "shaderHashBundle.storedShaderHashOpenGL"   (0x1400d9b90)
+0x140230eec: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230f03:     jmp 0x140230f13
+0x140230f13: FIELD u32 "shaderHashBundle.storedShaderHashOpenGL"   (0x1400d9b90)
+0x140230f1e:   VERSION cmp 0x112
+0x140230f25:     jae 0x140230fae   [cmp dword ptr [rsi + 0x24], 0x112]
+0x140230f37: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230f3c:   VERSION cmp 0x112
+0x140230f43:     jge 0x140230fc1   [cmp dword ptr [rsi + 0x24], 0x112]
+0x140230fac:     jmp 0x140230fc1
+0x140230fbc: FIELD u32 "shaderHashBundle.storedShaderHashORBIS"   (0x1400d9b90)
+0x140230fc9:     jb 0x140231076   [cmp eax, 0x98]
+0x140230fda:     jae 0x140231063   [cmp eax, 0x112]
+0x140230fec: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140230ff1:   VERSION cmp 0x112
+0x140230ff8:     jge 0x140231076   [cmp dword ptr [rsi + 0x24], 0x112]
+0x140231061:     jmp 0x140231076
+0x140231071: FIELD u32 "shaderHashBundle.storedShaderHashDURANGO"   (0x1400d9b90)
+0x14023107e:     jb 0x14023109c   [cmp eax, 0x150]
+0x140231094: FIELD u32 "shaderHashBundle.storedShaderHashDURANGODX12"   (0x1400d9b90)
+0x1402310a1:     jb 0x1402310bf   [cmp eax, 0x154]
+0x1402310b7: FIELD u32 "shaderHashBundle.storedShaderHashPROSPERO"   (0x1400d9b90)
+0x1402310c4:     jb 0x1402310e2   [cmp eax, 0x168]
+0x1402310da: FIELD u32 "shaderHashBundle.storedShaderHashSCARLETT"   (0x1400d9b90)
+0x1402310e7:     jb 0x140231105   [cmp eax, 0x156]
+0x1402310fd: FIELD u32 "shaderHashBundle.storedShaderHashDURANGOGDK"   (0x1400d9b90)
+0x14023110a:     jb 0x1402311b7   [cmp eax, 0xb5]
+0x14023111b:     jae 0x1402311a4   [cmp eax, 0x112]
+0x14023112d: FIELD u32 "dummyHashArray"   (0x1400d9b90)
+0x140231132:   VERSION cmp 0x112
+0x140231139:     jge 0x1402311b7   [cmp dword ptr [rsi + 0x24], 0x112]
+0x1402311a2:     jmp 0x1402311b7
+0x1402311b2: FIELD u32 "shaderHashBundle.storedShaderHashGLES2[NuShaderDesc::GLESVersion::GLES2]"   (0x1400d9b90)
+0x1402311bf:     jb 0x1402311dd   [cmp eax, 0x11c]
+0x1402311d5: FIELD u32 "shaderHashBundle.storedShaderHashGLES2[NuShaderDesc::GLESVersion::GLES3]"   (0x1400d9b90)
+0x1402311e2:     jb 0x140231200   [cmp eax, 0x134]
+0x1402311f8: FIELD u32 "shaderHashBundle.storedShaderHashVulkan"   (0x1400d9b90)
+0x140231205:     jb 0x140231221   [cmp eax, 0x135]
+0x14023121b: FIELD u32 "shaderHashBundle.storedShaderHashVulkan_MOB"   (0x1400d9b90)
+0x140231236: call 0x1435d9fbc
+0x14023125c:     jne 0x140230b13
+0x14023126c:     jne 0x140230b10   [cmp r13, 2]
+0x14023128a:     jne 0x140230b00   [cmp r9, 4]
+0x140231298:     jb 0x1402312f4   [cmp eax, 0x9e]
+0x1402312a4: call 0x14340ade0
+0x1402312a9:   VERSION cmp 0x110
+0x1402312b0:     jae 0x140231371   [cmp dword ptr [rsi + 0x24], 0x110]
+0x1402312be:     jne 0x140231371   [cmp dword ptr [r15 + 0x1f0], 5]
+0x1402312cb:     je 0x1402312d2   [test rdx, rdx]
+0x1402312d0:     jne 0x1402312d9   [cmp byte ptr [rdx], 0]
+0x1402312ea: CALL 0x140227f60 r8="None" rdx="UnnamedMaterial" r9=None
+0x1402312ef:     jmp 0x140231378
+0x1402312f7:     jb 0x140231371   [cmp eax, 0x29]
+0x140231300:     jne 0x140231362   [cmp dword ptr [rsi + 0x144], 0]
+0x14023130c: call 0x14340ade0
+0x140231337: call 0x14340ade0
+0x140231354: call 0x143409fd0
+0x140231360:     jmp 0x140231380
+0x14023136f:     jmp 0x140231380
+0x14023138b:     jae 0x1402313b4   [cmp ecx, 0xd5]
+0x140231390:     jb 0x1402313b4   [cmp ecx, 0x34]
+0x1402313ac: FIELD u32 "depthVertexDescMask"   (0x1400d9b90)
+0x1402313b9:     jae 0x1402313e1   [cmp eax, 0xd4]
+0x1402313d9: FIELD u32 "defunctFPThroughputPS3"   (0x1400d9b90)
+0x1402313e6:     jae 0x140231526   [cmp eax, 0xda]
+0x140231407:     jne 0x14023147e   [cmp dword ptr [rsi + 0x144], 1]
+0x140231410: FIELD u8 "None"   (0x1400d9d00)
+0x140231430: FIELD u8 "None"   (0x1400d9d00)
+0x140231450: FIELD u8 "None"   (0x1400d9d00)
+0x140231470: FIELD u8 "None"   (0x1400d9d00)
+0x14023147c:     jmp 0x1402314ed
+0x14023147e: FIELD u8 "None"   (0x1400d9d00)
+0x140231497: FIELD u8 "None"   (0x1400d9d00)
+0x1402314b0: FIELD u8 "None"   (0x1400d9d00)
+0x1402314b5:   VERSION cmp 0xc
+0x1402314b9:     jae 0x1402314d4   [cmp dword ptr [rsi + 0x24], 0xc]
+0x1402314cf: FIELD u8 "None"   (0x1400d9d00)
+0x1402314e8: FIELD u8 "None"   (0x1400d9d00)
+0x140231501: FIELD u8 "None"   (0x1400d9d00)
+0x140231521: FIELD u8 "defunctRenderPlaneID"   (0x1400d9d00)
+0x140231533: call 0x1402331b0
+0x14023154c: FIELD u32 "fx1.u32"   (0x1400d9b90)
+0x140231565: FIELD u32 "fx2.u32"   (0x1400d9b90)
+0x14023157e: FIELD u32 "fx3.u32"   (0x1400d9b90)
+0x140231597: FIELD u32 "fx4.u32"   (0x1400d9b90)
+0x14023159c:   VERSION cmp 0xfb
+0x1402315a3:     jae 0x1402315c4   [cmp dword ptr [rsi + 0x24], 0xfb]
+0x1402315bf: FIELD u32 "old_tid"   (0x1400d9c50)
+0x1402315d8: FIELD u8 "fxid"   (0x1400d9d00)
+0x1402315ee: FIELD u8 "special_id"   (0x1400d9d00)
+0x14023160f: FIELD u16 "shortPri16bit"   (0x1400d9ba0)
+0x140231626:     jb 0x14023170d   [cmp edx, 0x9f]
+0x140231660:     jb 0x1402316b4   [cmp edx, 0xfa]
+0x140231676: FIELD u8 "defunct_isReferencedMaterial"   (0x1400d9b10)
+0x14023168c: FIELD u16 "defunct_referencedGSCName"   (0x1400da710)
+0x1402316a3: FIELD u16 "defunct_referencedMaterialName"   (0x1400da710)
+0x1402316b7:     je 0x1402316dd   [cmp rcx, rax]
+0x1402316b9: call 0x1400bfd70
+0x1402316c1: call 0x1400bfd10
+0x1402316d1: call 0x1400ba2d0
+0x1402316ee:     je 0x14023170d   [cmp qword ptr [rbp - 0x30], rax]
+0x1402316f0: call 0x1400bfd70
+0x1402316f8: call 0x1400bfd10
+0x140231707: call 0x1400ba2d0
+0x140231715:     jae 0x14023173a   [cmp eax, 0xc7]
+0x140231732: FIELD u16 "defunctShineSortId"   (0x1400d9ba0)
+0x14023173f:     jae 0x1402317fe   [cmp eax, 0xd2]
+0x140231767: FIELD u8 "uanmmode"   (0x1400d9d00)
+0x140231780: FIELD u8 "vanmmode"   (0x1400d9d00)
+0x1402317a4: FIELD u32 "du"   (0x1400d9b90)
+0x1402317ba: FIELD u32 "dv"   (0x1400d9b90)
+0x1402317df: FIELD u32 "su"   (0x1400d9b90)
+0x1402317f6: FIELD u32 "sv"   (0x1400d9b90)
+0x140231803:     jb 0x1402319b3   [cmp eax, 0xf9]
+0x14023182f: call 0x1400d9d20
+0x140231838:     je 0x1402318a8   [test al, 1]
+0x14023183f: call 0x14022f3b0
+0x140231851:     je 0x140231878   [cmp qword ptr [rax], rcx]
+0x14023185f:     je 0x140231867   [test rcx, rcx]
+0x140231864: call qword ptr [rdx + 0x28]
+0x140231876:     jmp 0x14023187a
+0x140231882:     je 0x140231890   [test rcx, rcx]
+0x14023188c: call qword ptr [rax + 0x28]
+0x1402318a1: call 0x1400d9f10
+0x1402318a6:     jmp 0x1402318fe
+0x1402318b2:     je 0x1402318fe   [test rbx, rbx]
+0x1402318bf: call qword ptr [rax + 0x10]
+0x1402318cd:     je 0x1402318ef   [cmp rbx, rcx]
+0x1402318db:     je 0x1402318e5   [test rcx, rcx]
+0x1402318e0: call qword ptr [rax + 0x28]
+0x1402318f2:     je 0x1402318fe   [test rbx, rbx]
+0x1402318fa: call qword ptr [rax + 0x28]
+0x140231902:     je 0x140231917   [test dil, 2]
+0x140231915: call qword ptr [rax]
+0x14023192f: call 0x1400d9d20
+0x140231938:     je 0x14023199a   [test al, 1]
+0x14023193a: call 0x1400bfd70
+0x140231942: call 0x1400bfd10
+0x14023196e: call 0x1400bc7d0
+0x14023197d:     je 0x140231988   [test rax, rax]
+0x140231982: call 0x14022e580
+0x140231995: call 0x1400d9f10
+0x14023199e:     je 0x1402319b3   [test dil, 2]
+0x1402319b1: call qword ptr [rax]
+0x1402319bb:     jae 0x140231a34   [cmp eax, 0xf9]
+0x1402319de: FIELD u32 "firstVariantIdx"   (0x1400d9b90)
+0x1402319e3:   VERSION cmp 0xb8
+0x1402319f0:     jae 0x1402319f7
+0x140231a1f: FIELD u32 "nextVariantIdx"   (0x1400d9b90)
+0x140231a39:     jae 0x140231a5b   [cmp eax, 0x10e]
+0x140231a56: FIELD u8 "defunct_IsCreaseMeshMaterial"   (0x1400d9d00)
+0x140231a81: FIELD u8 "HasVariants"   (0x1400d9d00)
+0x140231aaf:     jb 0x140231aed   [cmp eax, 0x12f]
+0x140231ace: FIELD u8 "m_legacyShaderCompatibility"   (0x1400d9d00)
+0x140231af2:     jae 0x140231b17   [cmp eax, 0xd2]
+0x140231b0f: FIELD u8 "oldWasSerialized"   (0x1400d9d00)
+0x140231b1a:     jb 0x140231b3f   [cmp eax, 0x37]
+0x140231b37: FIELD u8 "LegoStudMaterial"   (0x1400d9d00)
+0x140231b42:     jb 0x140231c74   [cmp eax, 0x1e]
+0x140231b4d:     jae 0x140231b72   [cmp eax, 0x130]
+0x140231b6a: FIELD u8 "MaskShadows"   (0x1400d9d00)
+0x140231b75:     jae 0x140231b99   [cmp eax, 0x27]
+0x140231b92: FIELD u8 "discardSortAfterDeferred"   (0x1400d9d00)
+0x140231b97:     jmp 0x140231be6
+0x140231b9e:     jae 0x140231be6   [cmp eax, 0xa4]
+0x140231bc7: FIELD u8 "SortAfterDeferred"   (0x1400d9d00)
+0x140231c0d: FIELD u8 "SortAfterRefraction"   (0x1400d9d00)
+0x140231c52: FIELD u8 "SkipValidation"   (0x1400d9d00)
+0x140231c79:     jb 0x140231ca5   [cmp eax, 0x6b]
+0x140231c80:     jae 0x140231ca5   [cmp eax, 0x130]
+0x140231c9d: FIELD u8 "SpecialDepthSorting"   (0x1400d9d00)
+0x140231ca8:     jb 0x140231cf2   [cmp ecx, 0x6c]
+0x140231cd1: FIELD u8 "ForceAlphaLightingSupport"   (0x1400d9d00)
+0x140231cf0:     jmp 0x140231d03
+0x140231cf9:     jne 0x140231d03   [cmp dword ptr [rsi + 0x144], 0]
+0x140231d0b:     jb 0x140231da0   [cmp eax, 0x109]
+0x140231d38: FIELD u8 "m_AlphaRespondToLights"   (0x1400d9d00)
+0x140231d7b: FIELD u8 "m_AlphaRespondToProbes"   (0x1400d9d00)
+0x140231da3:     jb 0x140231de8   [cmp eax, 0x7a]
+0x140231dc9: FIELD u8 "NoAutoScreenDoor"   (0x1400d9d00)
+0x140231def:     jae 0x140231e19   [cmp eax, 0x11d]
+0x140231df4:     jb 0x140231e19   [cmp eax, 0x7d]
+0x140231e11: FIELD u8 "CompileLiveCubemapGenShader"   (0x1400d9d00)
+0x140231e21:     jb 0x140231e4e   [cmp edx, 0x83]
+0x140231e29:     jae 0x140231e4e   [cmp edx, 0x103]
+0x140231e46: FIELD u8 "CompileToonShader"   (0x1400d9d00)
+0x140231e54:     jb 0x140231ea1   [cmp ecx, 0x91]
+0x140231e7c: FIELD u8 "ShadowImpostor"   (0x1400d9d00)
+0x140231ea7:     jb 0x140231ef2   [cmp ecx, 0x92]
+0x140231ed0: FIELD u8 "ShadowsFromFrontFaces"   (0x1400d9d00)
+0x140231ef8:     jb 0x140231f43   [cmp ecx, 0x96]
+0x140231f21: FIELD u8 "m_doUntexturedTPage"   (0x1400d9d00)
+0x140231f49:     jb 0x140231f94   [cmp ecx, 0xa5]
+0x140231f72: FIELD u8 "m_forceTPageRemap"   (0x1400d9d00)
+0x140231f9a:     jb 0x140231fe6   [cmp ecx, 0xbb]
+0x140231fc1: FIELD u8 "m_forceTPageSurfType"   (0x1400d9d00)
+0x140231fec:     jb 0x140232031   [cmp ecx, 0xbf]
+0x140232012: FIELD u8 "m_forceTPageAlphaFade"   (0x1400d9d00)
+0x140232039:     jne 0x14023204c   [test eax, eax]
+0x140232052:     jae 0x14023207f   [cmp ecx, 0xd3]
+0x140232057:     je 0x14023207f   [cmp eax, 2]
+0x140232077: FIELD u32 "name_ix"   (0x1400d9c50)
+0x140232082:     jb 0x1402320a0   [cmp ecx, 0x1f]
+0x140232098: FIELD u32 "defaultRenderStage"   (0x1400d9b90)
+0x1402320a6:     jb 0x1402321f1   [cmp ecx, 0xfc]
+0x1402320b5:     je 0x1402321bd   [test al, 1]
+0x1402320c1:     jae 0x1402321bd   [cmp ecx, 0x106]
+0x1402320de: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x1402320eb: call 0x1400acc80
+0x140232106: CALL 0x14022e180 r8="tempTextureFixupData" rdx="None" r9=None
+0x140232125:     je 0x140232177   [test eax, eax]
+0x140232136:     je 0x140232158   [cmp dword ptr [rbx + r15], 0]
+0x140232149: call 0x140233e00
+0x14023216a:     jne 0x140232131   [cmp edi, eax]
+0x14023217a:     je 0x140232196   [cmp rbx, r14]
+0x140232183: call 0x140236b90
+0x14023218f:     jne 0x140232180   [cmp rbx, r14]
+0x140232199:     je 0x1402321b5   [test rbx, rbx]
+0x1402321af: call 0x1400b94f0
+0x1402321bb:     jmp 0x1402321f1
+0x1402321c3:     jb 0x1402321db   [cmp ecx, 0x116]
+0x1402321d6: CALL 0x14022e180 r8="m_textureFixupData[NuShaderScope::Vertex]" rdx="None" r9=None
+0x1402321ec: CALL 0x14022e180 r8="m_textureFixupData[NuShaderScope::Pixel]" rdx="None" r9=None
+0x1402321fa:     jb 0x140232355   [cmp ecx, 0x104]
+0x140232206:     jb 0x14023221e   [cmp ecx, 0x116]
+0x140232219: CALL 0x14022df50 r8="m_shaderUserConstantsInfo[NuShaderScope::Vertex]" rdx="None" r9=None
+0x14023222f: CALL 0x14022df50 r8="m_shaderUserConstantsInfo[NuShaderScope::Pixel]" rdx="None" r9=None
+0x14023223c:     jb 0x140232277   [cmp eax, 0x106]
+0x140232243:     jb 0x14023225e   [cmp eax, 0x116]
+0x140232259: FIELD u32 "m_shaderUserConstants_PackedFloat4Count[NuShaderScope::Vertex]"   (0x1400d9c50)
+0x140232272: FIELD u32 "m_shaderUserConstants_PackedFloat4Count[NuShaderScope::Pixel]"   (0x1400d9c50)
+0x14023227f:     jb 0x1402322e6   [cmp eax, 0x115]
+0x140232286:     jb 0x1402322b7   [cmp eax, 0x116]
+0x140232299: CALL 0x14022df50 r8="m_shaderUserInstancedConstantsInfo[NuShaderScope::Vertex]" rdx="None" r9=None
+0x1402322b2: FIELD u32 "m_shaderUserInstancedConstants_PackedFloat4Count[NuShaderScope::Vertex]"   (0x1400d9c50)
+0x1402322c8: CALL 0x14022df50 r8="m_shaderUserInstancedConstantsInfo[NuShaderScope::Pixel]" rdx="None" r9=None
+0x1402322e1: FIELD u32 "m_shaderUserInstancedConstants_PackedFloat4Count[NuShaderScope::Pixel]"   (0x1400d9c50)
+0x1402322e6:   VERSION cmp 0x116
+0x1402322ed:     jb 0x140232305   [cmp dword ptr [rsi + 0x24], 0x116]
+0x140232300: CALL 0x14022e060 r8="m_shaderUserTexturesInfo[NuShaderScope::Vertex]" rdx="None" r9=None
+0x140232316: CALL 0x14022e060 r8="m_shaderUserTexturesInfo[NuShaderScope::Pixel]" rdx="None" r9=None
+0x140232324:     jb 0x140232355   [cmp ecx, 0x142]
+0x140232337: CALL 0x14022e060 r8="m_shaderUserTexturesInfo[NuShaderScope::Hull]" rdx="None" r9=None
+0x14023234d: CALL 0x14022e060 r8="m_shaderUserTexturesInfo[NuShaderScope::Domain]" rdx="None" r9=None
+0x14023235b:     jb 0x1402323c3   [cmp ecx, 0x10d]
+0x140232371: FIELD u32 "m_editorAlphaMode"   (0x1400d9b90)
+0x14023237f:     jb 0x14023238b   [cmp edx, 0x129]
+0x140232389:     jae 0x1402323c3   [cmp edx, 0x130]
+0x140232396:     je 0x1402323c3   [test al, 1]
+0x1402323a0:     jne 0x1402323c3   [cmp dword ptr [r15 + 0xc28], 0]
+0x1402323c9:     jb 0x140232576   [cmp ecx, 0x10f]
+0x1402323f6: FIELD u8 "m_SortAfterPostEffects"   (0x1400d9d00)
+0x14023243b: FIELD u8 "m_Font"   (0x1400d9d00)
+0x14023247e: FIELD u8 "m_DistanceFieldAlpha"   (0x1400d9d00)
+0x1402324c7: FIELD u8 "m_IsTPaged"   (0x1400d9d00)
+0x14023250a: FIELD u8 "m_IsDeferredDecal"   (0x1400d9d00)
+0x14023254b: FIELD u8 "m_IsDecal"   (0x1400d9d00)
+0x140232571:     jmp 0x1402325fb
+0x140232603:     jb 0x140232647   [cmp eax, 0x14c]
+0x140232625: FIELD u8 "m_savedWithMissingShaders"   (0x1400d9d00)
+0x14023264c:     jb 0x140232686   [cmp eax, 0x174]
+0x140232670: FIELD u8 "m_lastAutoCookReason"   (0x1400d9d00)
+0x14023268b:     jb 0x140232719   [cmp eax, 0x114]
+0x1402326a5: FIELD u16 "m_shaderBytecodesPath"   (0x1400da710)
+0x1402326b3:     jg 0x140232703   [cmp word ptr [r15 + 0xc72], 1]
+0x1402326c4:     jne 0x1402326d0   [test al, 1]
+0x1402326c9: call qword ptr [rax + 0x48]
+0x1402326ce:     jne 0x140232703   [cmp al, 0x23]
+0x1402326d7:     jne 0x140232703   [cmp dword ptr [rsi + 0x144], 0]
+0x1402326e4: call 0x140216420
+0x1402326fe: CALL 0x1400d0510 r8=".shaders" rdx=".material" r9=None
+0x140232711: call 0x1401f6e60
+0x140232720:     jae 0x14023274e   [cmp eax, 0x11f]
+0x14023272b:     je 0x14023274e   [test al, 1]
+0x140232742:     jne 0x14023274e   [cmp al, 0x1b]
+0x140232755:     jne 0x140232864   [cmp dword ptr [rsi + 0x144], 0]
+0x14023275b:   VERSION cmp 0x2a
+0x14023275f:     jae 0x14023278b   [cmp dword ptr [rsi + 0x24], 0x2a]
+0x14023276a:     jne 0x140232784   [cmp word ptr [r15 + 0x168], 1]
+0x140232782:     jmp 0x14023278b
+0x14023278b:   VERSION cmp 0x6b
+0x14023278f:     jae 0x140232822   [cmp dword ptr [rsi + 0x24], 0x6b]
+0x14023279f:     je 0x1402327dd   [test cl, 0x10]
+0x1402327f0:     jne 0x140232822   [cmp eax, 0x1400000]
+0x140232832:     jne 0x140232844   [cmp eax, 8]
+0x140232844:   VERSION cmp 0x84
+0x14023284b:     jae 0x140232857   [cmp dword ptr [rsi + 0x24], 0x84]
+0x140232853:     ja 0x140232864   [cmp eax, 2]
+0x140232855:     jmp 0x14023285c
+0x14023285a:     jne 0x140232864   [cmp eax, 8]
+0x140232864:   VERSION cmp 0x11a
+0x14023286b:     jb 0x140232d4b   [cmp dword ptr [rsi + 0x24], 0x11a]
+0x14023288c:     jae 0x14023289a   [cmp dword ptr [rbp - 0x40], 0x13c]
+0x140232894:     jbe 0x140232d32   [cmp al, 1]
+0x1402328e7: FIELD u32 "textureReferences_size"   (0x1400d9b90)
+0x140232919:     jbe 0x140232930   [cmp r8, rdx]
+0x140232924: call 0x14022fc50
+0x14023292e:     jmp 0x140232950
+0x14023293f: call 0x14022e290
+0x14023298a:     jbe 0x1402329a0   [cmp r14, rax]
+0x140232999: call 0x140139330
+0x14023299e:     jmp 0x1402329e4
+0x1402329a7:     je 0x1402329d9   [cmp rbx, rdi]
+0x1402329b6:     je 0x1402329c2   [test rcx, rcx]
+0x1402329be: call qword ptr [rax + 0x28]
+0x1402329c9:     jne 0x1402329b0   [cmp rbx, rdi]
+0x1402329ef:     jbe 0x140232d21   [cmp dword ptr [rbp + 0x4b8], eax]
+0x140232a05: call 0x1400b6220
+0x140232a10: call 0x1400b6220
+0x140232a1b: call 0x1400b6220
+0x140232a33: call 0x1400c0ab0
+0x140232a43: call 0x1400c0bf0
+0x140232a69:     je 0x140232ac3   [test rdx, rdx]
+0x140232a6e:     je 0x140232ac3   [cmp byte ptr [rdx], 0]
+0x140232a88:     jne 0x140232a80   [cmp byte ptr [rdx + rax], 0]
+0x140232a8f:     jne 0x140232a99   [test ecx, ecx]
+0x140232ab1: call 0x1435dc710
+0x140232ad4: FIELD u16 "resourceIDAsString"   (0x1400da880)
+0x140232ae0:     jne 0x140232cdf   [cmp dword ptr [rsi + 0x144], 0]
+0x140232af4:     je 0x140232b2e
+0x140232af9: call 0x1400c9200
+0x140232b00:     je 0x140232b2e   [test al, al]
+0x140232b1b:     je 0x140232b2e   [test rcx, rcx]
+0x140232b22:     je 0x140232b2e   [cmp qword ptr [rcx + 0x10], 0]
+0x140232b2c: call rax
+0x140232b36:     je 0x140232b48   [test qword ptr [rdi + 8], -4]
+0x140232b38: call 0x1400c0ab0
+0x140232b43: call 0x1400c3cc0
+0x140232b4c: call 0x1433f05c0
+0x140232b54:     je 0x140232b64   [cmp eax, -1]
+0x140232b58: call 0x1400b9180
+0x140232b62:     jne 0x140232b66   [cmp al, 0xff]
+0x140232b69:     je 0x140232ca0   [cmp bl, 0xff]
+0x140232b72: call 0x1400b91c0
+0x140232ba3:     je 0x140232bc6   [test rcx, rcx]
+0x140232bb7:     jne 0x140232bb0   [cmp byte ptr [rcx + rax], 0]
+0x140232bc4:     jmp 0x140232bcd
+0x140232bd8:     je 0x140232bfb   [test rdx, rdx]
+0x140232be8:     jne 0x140232be1   [cmp byte ptr [rdx + rax], 0]
+0x140232bf9:     jmp 0x140232c06
+0x140232c29: call 0x1400cc930
+0x140232c2e: call 0x1400c0ab0
+0x140232c41: call 0x1400b61e0
+0x140232c53: call 0x1400b61e0
+0x140232c7b: call 0x1400c1b20
+0x140232c86: call 0x1400b65a0
+0x140232c90: call 0x1400b65a0
+0x140232ca7:     je 0x140232cdf
+0x140232cac: call 0x1400c9200
+0x140232cb3:     je 0x140232cdf   [test al, al]
+0x140232ccc:     je 0x140232cdf   [test rcx, rcx]
+0x140232cd2:     je 0x140232cdf   [cmp qword ptr [rcx + 0x10], rax]
+0x140232cdc: call rax
+0x140232cf0: call 0x1400b65a0
+0x140232cfa: call 0x1400b65a0
+0x140232d04: call 0x1400b65a0
+0x140232d13:     jb 0x140232a00   [cmp r15d, dword ptr [rbp + 0x4b8]]
+0x140232d40:     jb 0x140232885   [cmp r13b, 4]
+0x140232d46:     jmp 0x140233169
+0x140232d52:     jne 0x14023317b   [cmp dword ptr [rsi + 0x144], 0]
+0x140232d61:     je 0x140233169   [test al, 1]
+0x140232d87:     jae 0x140232d95   [cmp dword ptr [rbp - 0x40], 0x13c]
+0x140232d8f:     jbe 0x14023314e   [cmp al, 1]
+0x140232de7:     jbe 0x140232dfd   [cmp r8, rdx]
+0x140232df2: call 0x14022fc50
+0x140232dfb:     jmp 0x140232e1b
+0x140232e0c: call 0x14022e290
+0x140232e54:     jbe 0x140232e6a   [cmp r14, rax]
+0x140232e63: call 0x140139330
+0x140232e68:     jmp 0x140232eab
+0x140232e71:     je 0x140232ea0   [cmp rbx, rdi]
+0x140232e7c:     je 0x140232e88   [test rcx, rcx]
+0x140232e84: call qword ptr [rax + 0x28]
+0x140232e8f:     jne 0x140232e76   [cmp rbx, rdi]
+0x140232ec2:     je 0x14023312d   [test eax, eax]
+0x140232ef0:     je 0x140232f2c
+0x140232ef7: call 0x1400c9200
+0x140232efe:     je 0x140232f2c   [test al, al]
+0x140232f19:     je 0x140232f2c   [test rcx, rcx]
+0x140232f20:     je 0x140232f2c   [cmp qword ptr [rcx + 0x10], 0]
+0x140232f2a: call rax
+0x140232f34:     je 0x140232f46   [test qword ptr [rdi + 8], -4]
+0x140232f36: call 0x1400c0ab0
+0x140232f41: call 0x1400c3cc0
+0x140232f49: call 0x1433f05c0
+0x140232f51:     je 0x140232f62   [cmp eax, -1]
+0x140232f55: call 0x1400b9180
+0x140232f60:     jne 0x140232f65   [cmp al, 0xff]
+0x140232f69:     je 0x1402330b1   [cmp r14b, 0xff]
+0x140232f73: call 0x1400b91c0
+0x140232fa5:     je 0x140232fc6   [test rcx, rcx]
+0x140232fb7:     jne 0x140232fb0   [cmp byte ptr [rcx + rax], 0]
+0x140232fc4:     jmp 0x140232fcd
+0x140232fd4:     je 0x140232ffa   [test rbx, rbx]
+0x140232fe7:     jne 0x140232fe0   [cmp byte ptr [rbx + rax], 0]
+0x140232ff8:     jmp 0x140233005
+0x140233028: call 0x1400cc930
+0x14023302d: call 0x1400c0ab0
+0x140233041: call 0x1400b61e0
+0x140233055: call 0x1400b61e0
+0x140233087: call 0x1400c1b20
+0x140233094: call 0x1400b65a0
+0x14023309f: call 0x1400b65a0
+0x1402330af:     jmp 0x1402330b7
+0x1402330be:     je 0x1402330f9
+0x1402330c3: call 0x1400c9200
+0x1402330ca:     je 0x1402330f9   [test al, al]
+0x1402330e5:     je 0x1402330f9   [test rax, rax]
+0x1402330ec:     je 0x1402330f9   [cmp qword ptr [rax + 0x10], 0]
+0x1402330f6: call qword ptr [rax + 0x18]
+0x14023311f:     jne 0x140232ed0   [cmp r15d, eax]
+0x140233130: call 0x140233d90
+0x140233138: call 0x140233f80
+0x14023315c:     jb 0x140232d80   [cmp r13b, 4]
+0x140233170:     jne 0x14023317b   [cmp dword ptr [rsi + 0x144], 0]
+0x140233176: call 0x140233760
+0x14023317f:     jne 0x14023318c   [cmp dword ptr [rbp + 8], 0]
+0x140233184: call 0x1400d9890
+0x14023318f: call 0x1400acc00
+0x1402331a7:     ret

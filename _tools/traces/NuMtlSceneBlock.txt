@@ -1,0 +1,111 @@
+; function 0x14023ab90 (486 insns, 1 chunks)
+0x14023abc5: CALL 0x1400acc00 r8="None" rdx="NuMtlSceneBlock" r9=None
+0x14023abd8: FIELD u32 "None"   (0x1400d98b0)
+0x14023abec:     jae 0x14023ac0b   [cmp eax, 0xbc]
+0x14023ac03: FIELD u32 "dummy_iNumMtls"   (0x1400d9b90)
+0x14023ac14:     jb 0x14023adcf   [cmp eax, 0xf8]
+0x14023ac3c: FIELD u32 "size"   (0x1400d9b90)
+0x14023ac4a: call 0x14023aae0
+0x14023ac62:     je 0x14023aee6   [test eax, eax]
+0x14023ac8a:     je 0x14023ac96   [test rbx, rbx]
+0x14023ac92: call qword ptr [rax + 0x10]
+0x14023acac: call 0x1400d9d20
+0x14023acb6:     je 0x14023ad10   [test al, 1]
+0x14023acbc: call 0x14022f3b0
+0x14023acca:     je 0x14023aceb   [cmp rdx, rbx]
+0x14023acd9:     je 0x14023ace4   [test rcx, rcx]
+0x14023acde: call qword ptr [rdx + 0x28]
+0x14023acf2:     je 0x14023acff   [test rcx, rcx]
+0x14023acfb: call qword ptr [rax + 0x28]
+0x14023ad09: call 0x1400d9f10
+0x14023ad0e:     jmp 0x14023ad60
+0x14023ad17:     je 0x14023ad64   [test rcx, rcx]
+0x14023ad1d: call 0x1401127f0
+0x14023ad2b:     je 0x14023ad4c   [cmp rax, rbx]
+0x14023ad3a:     je 0x14023ad45   [test rcx, rcx]
+0x14023ad3f: call qword ptr [rdx + 0x28]
+0x14023ad53:     je 0x14023ad60   [test rcx, rcx]
+0x14023ad5c: call qword ptr [rax + 0x28]
+0x14023ad68:     je 0x14023ad76   [test r13b, 2]
+0x14023ad74: call qword ptr [rax]
+0x14023ad7f:     je 0x14023ada1   [cmp rbx, rcx]
+0x14023ad87:     je 0x14023ad8f   [test rcx, rcx]
+0x14023ad8c: call qword ptr [rax + 0x28]
+0x14023ad95:     je 0x14023ada1   [test rbx, rbx]
+0x14023ad9d: call qword ptr [rax + 0x10]
+0x14023ada4:     je 0x14023adb0   [test rbx, rbx]
+0x14023adac: call qword ptr [rax + 0x28]
+0x14023adc4:     jb 0x14023ac70   [cmp r12d, eax]
+0x14023adca:     jmp 0x14023aee2
+0x14023adf5: call 0x1400d9d20
+0x14023ae01:     je 0x14023ae1f   [test edx, edx]
+0x14023ae06:     je 0x14023ae1f   [test bl, 1]
+0x14023ae0e: call 0x14023aae0
+0x14023ae1a: call 0x1400d9f10
+0x14023ae22:     je 0x14023aee2   [test bl, 2]
+0x14023ae3a:     je 0x14023aee2   [test eax, eax]
+0x14023ae47:     jne 0x14023aeb8   [cmp dword ptr [rsi + 0x144], 0]
+0x14023ae51: call 0x14022f570
+0x14023ae64: call qword ptr [rax]
+0x14023ae79:     je 0x14023aea6   [cmp rcx, rdx]
+0x14023ae81:     je 0x14023ae8c   [test rdx, rdx]
+0x14023ae89: call qword ptr [rax + 0x28]
+0x14023ae9a:     je 0x14023aea6   [test rcx, rcx]
+0x14023ae9f: call qword ptr [rax + 0x10]
+0x14023aea9:     je 0x14023aeb6   [test rcx, rcx]
+0x14023aeb2: call qword ptr [rax + 0x28]
+0x14023aeb6:     jmp 0x14023aeca
+0x14023aec8: call qword ptr [rax]
+0x14023aedc:     jb 0x14023ae40   [cmp ebx, eax]
+0x14023aef9: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x14023af05: call 0x1400acc80
+0x14023af19:     jb 0x14023af39   [cmp ecx, 0x9f]
+0x14023af21:     jae 0x14023af39   [cmp ecx, 0xfa]
+0x14023af31: CALL 0x14023a500 r8="oldReferencedMaterials" rdx="None" r9=None
+0x14023af3e:     jae 0x14023af60   [cmp eax, 0xf8]
+0x14023af58: FIELD u8 "haveShaderBlock"   (0x1400d9b10)
+0x14023af63:     jb 0x14023af97   [cmp eax, 0x21]
+0x14023af79: FIELD u32 "m_StoredEngineHash"   (0x1400d9b90)
+0x14023af92: FIELD u32 "m_StoredShaderBuilderVersion"   (0x1400d9c50)
+0x14023af9e:     jne 0x14023b072   [cmp dword ptr [rsi + 0x144], 0]
+0x14023afaa:     jae 0x14023b072   [cmp dword ptr [rbx], 0xf9]
+0x14023afc3:     je 0x14023b072   [test eax, eax]
+0x14023afe7:     je 0x14023b018   [cmp ecx, -1]
+0x14023aff2:     jae 0x14023aff9   [cmp word ptr [rbx + 0x94], 0xb8]
+0x14023aff7:     jb 0x14023b018   [cmp ecx, r15d]
+0x14023b001:     je 0x14023b034   [cmp qword ptr [rax + rcx*8], 0]
+0x14023b011:     je 0x14023b034   [test rcx, rcx]
+0x14023b016:     jmp 0x14023b031
+0x14023b022:     je 0x14023b034   [test rax, rax]
+0x14023b031: call qword ptr [rax + 0x10]
+0x14023b03d:     je 0x14023b051   [cmp eax, -1]
+0x14023b04f:     jmp 0x14023b058
+0x14023b06c:     jb 0x14023afd0   [cmp r15d, eax]
+0x14023b072:   VERSION cmp 0xfd
+0x14023b079:     jb 0x14023b1d2   [cmp dword ptr [rsi + 0x24], 0xfd]
+0x14023b092: CALL 0x1400acc80 r8="None" rdx="EASTL vector" r9=None
+0x14023b09e: call 0x1400acc80
+0x14023b0be: FIELD u32 "id"   (0x1400d9b90)
+0x14023b0e6: FIELD u32 "size"   (0x1400d9b90)
+0x14023b104:     jbe 0x14023b11f   [cmp r15, rax]
+0x14023b110: call 0x1402009a0
+0x14023b11d:     jmp 0x14023b14d
+0x14023b129:     je 0x14023b145   [cmp r14, r12]
+0x14023b133: call 0x1400af7a0
+0x14023b13f:     jne 0x14023b130   [cmp r14, r12]
+0x14023b159:     je 0x14023b196   [test eax, eax]
+0x14023b179: FIELD u16 "None"   (0x1400da710)
+0x14023b194:     jb 0x14023b160   [cmp edi, eax]
+0x14023b199:     je 0x14023b1b5   [cmp rbx, r14]
+0x14023b1a3: call 0x1400af7a0
+0x14023b1af:     jne 0x14023b1a0   [cmp rbx, r14]
+0x14023b1b8:     je 0x14023b1d2   [test rbx, rbx]
+0x14023b1cc: call 0x1400b94f0
+0x14023b1dd:     je 0x14023b205   [cmp r9, rdi]
+0x14023b1e7: call 0x1400af7a0
+0x14023b1ef: call 0x1400af7a0
+0x14023b1ff:     jne 0x14023b1e3   [cmp rax, rdi]
+0x14023b208:     je 0x14023b241   [test r9, r9]
+0x14023b23b: call 0x1400b94f0
+0x14023b244: call 0x1400d9890
+0x14023b262:     jmp 0x1400acc00

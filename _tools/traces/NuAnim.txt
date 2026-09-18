@@ -1,0 +1,169 @@
+; function 0x1402375d0 (704 insns, 2 chunks)
+0x1402375f9: FIELD u32 "m_AnimHeaderVersion"   (0x1400d9b90)
+0x140237612: FIELD u16 "m_NumNodes"   (0x1400d9ba0)
+0x14023762b: FIELD u16 "m_NumFrames"   (0x1400d9ba0)
+0x140237644: FIELD u16 "m_CurveGroupSize"   (0x1400d9ba0)
+0x14023765d: FIELD u16 "m_OriginalNumFramesOLD"   (0x1400d9ba0)
+0x140237676: FIELD u16 "m_NumCurves"   (0x1400d9ba0)
+0x14023768f: FIELD u16 "m_FirstFrameOLD"   (0x1400d9ba0)
+0x1402376a8: FIELD u8 "m_EndFrames"   (0x1400d9d00)
+0x1402376c1: FIELD u8 "m_NumShortIntegers"   (0x1400d9d00)
+0x1402376da: FIELD u8 "m_FixedUp"   (0x1400d9d00)
+0x1402376f6: FIELD u8 "m_MiscFlags"   (0x1400d9d00)
+0x14023770f: FIELD u16 "m_TotalNumFrames"   (0x1400d9ba0)
+0x140237728: FIELD u32 "m_ConstantBase"   (0x1400d9b90)
+0x140237741: FIELD u32 "m_ConstantScale"   (0x1400d9b90)
+0x14023774b:     jge 0x14023777f   [cmp byte ptr [r12], 0]
+0x140237761: FIELD u32 "m_CompressionRatio"   (0x1400d9b90)
+0x14023777a: FIELD u32 "m_fFirstFrame"   (0x1400d9b90)
+0x140237795:     jae 0x140237844
+0x1402377b2: call 0x1400d9d20
+0x1402377bb:     je 0x1402377dc   [test al, 1]
+0x1402377cb: call 0x1401c04b0
+0x1402377d7: call 0x1400d9f10
+0x1402377df:     je 0x14023783e   [test bl, 2]
+0x1402377e7:     je 0x14023783e   [test ecx, ecx]
+0x1402377f8:     jbe 0x1402377ff   [cmp ebx, r8d]
+0x1402377fd:     jmp 0x140237803
+0x140237801:     jbe 0x14023780e   [cmp ebx, ecx]
+0x140237809: call 0x1401c04b0
+0x140237829: FIELD u16 "None"   (0x1400d9ba0)
+0x14023783c:     jb 0x1402377f1   [cmp eax, ecx]
+0x140237842:     jmp 0x14023785a
+0x140237855: FIELD u32 "m_KeysNeeded"   (0x1400d9c50)
+0x140237862:     jb 0x14023791a   [cmp dword ptr [r13], 0x414e4944]
+0x140237882: call 0x1400d9d20
+0x14023788b:     je 0x1402378ac   [test al, 1]
+0x14023789b: call 0x1402374c0
+0x1402378a7: call 0x1400d9f10
+0x1402378af:     je 0x14023790e   [test bl, 2]
+0x1402378b7:     je 0x14023790e   [test ecx, ecx]
+0x1402378c8:     jbe 0x1402378cf   [cmp ebx, r8d]
+0x1402378cd:     jmp 0x1402378d3
+0x1402378d1:     jbe 0x1402378de   [cmp ebx, ecx]
+0x1402378d9: call 0x1402374c0
+0x1402378f9: FIELD u32 "None"   (0x1400d9b90)
+0x14023790c:     jb 0x1402378c1   [cmp eax, ecx]
+0x140237915: call 0x140221190
+0x140237928: CALL 0x140237370 r8="m_Constants" rdx="None" r9=None
+0x14023793b: CALL 0x140237370 r8="m_KeyTypes" rdx="None" r9=None
+0x140237960: call 0x1400d9d20
+0x140237969:     je 0x140237988   [test al, 1]
+0x140237978: call 0x140237540
+0x140237983: call 0x1400d9f10
+0x14023798b:     je 0x140237a0d   [test bl, 2]
+0x140237997:     je 0x140237a0d   [test ecx, ecx]
+0x1402379a9:     jbe 0x1402379b0   [cmp edi, r8d]
+0x1402379ae:     jmp 0x1402379b4
+0x1402379b2:     jbe 0x1402379be   [cmp edi, ecx]
+0x1402379b9: call 0x140237540
+0x1402379db: FIELD u32 "Scale"   (0x1400d9b90)
+0x1402379f4: FIELD u32 "Min"   (0x1400d9b90)
+0x140237a08:     jb 0x1402379a2   [cmp eax, ecx]
+0x140237a1e: CALL 0x1402372b0 r8="m_TangentKeys" rdx="None" r9=None
+0x140237a34: CALL 0x1402372b0 r8="m_CurvesetFlags" rdx="None" r9=None
+0x140237a43:     jb 0x140237a58   [cmp ecx, 0x414e4945]
+0x140237a4f: call 0x140221190
+0x140237a64:     jae 0x140237d9b   [cmp ecx, 0x414e4941]
+0x140237aa3:     jne 0x140237afc   [cmp eax, 1]
+0x140237aae:     je 0x140237af6   [test esi, esi]
+0x140237ab0: call 0x1400bfd70
+0x140237ab8: call 0x1400bfd10
+0x140237adc: call 0x1400bc7d0
+0x140237afe:     je 0x140237d80   [test ecx, ecx]
+0x140237b17:     je 0x140237b24   [test r12b, r12b]
+0x140237b22:     jmp 0x140237b26
+0x140237b2d:     jbe 0x140237b34   [cmp ebx, r8d]
+0x140237b32:     jmp 0x140237b3a
+0x140237b38:     jbe 0x140237b45   [cmp ebx, dword ptr [r13 + 0x38]]
+0x140237b40: call 0x1401c04b0
+0x140237b54:     ja 0x140237d56   [cmp edx, 0xb]
+0x140237b6e:     jmp rcx
+0x140237b73:     jmp 0x140237d56
+0x140237b7b:     je 0x140237be0   [test r12b, r12b]
+0x140237b90: FIELD u16 "Key064->a"   (0x1400d9ba0)
+0x140237ba9: FIELD u16 "Key064->b"   (0x1400d9ba0)
+0x140237bc2: FIELD u16 "Key064->c"   (0x1400d9ba0)
+0x140237bdb: FIELD u16 "Key064->d"   (0x1400d9ba0)
+0x140237be3:     jmp 0x140237d56
+0x140237beb:     je 0x140237d53   [test r12b, r12b]
+0x140237c04: FIELD u8 "KeyShort[0]"   (0x1400d9d00)
+0x140237c1d: FIELD u8 "KeyShort[1]"   (0x1400d9d00)
+0x140237c36: FIELD u8 "KeyShort[2]"   (0x1400d9d00)
+0x140237c4f: FIELD u8 "KeyShort[3]"   (0x1400d9d00)
+0x140237c54:     jmp 0x140237d53
+0x140237c5c:     je 0x140237be0   [test r12b, r12b]
+0x140237c71: FIELD u16 "Key1648[0]"   (0x1400d9ba0)
+0x140237c8a: FIELD u16 "Key1648[1]"   (0x1400d9ba0)
+0x140237ca3: FIELD u16 "Key1648[2]"   (0x1400d9ba0)
+0x140237cbc: FIELD u16 "Key1648[3]"   (0x1400d9ba0)
+0x140237cc4:     jmp 0x140237d56
+0x140237ccc:     je 0x140237d31   [test r12b, r12b]
+0x140237ce1: FIELD u32 "Key32Bit[0]"   (0x1400d9b90)
+0x140237cfa: FIELD u32 "Key32Bit[1]"   (0x1400d9b90)
+0x140237d13: FIELD u32 "Key32Bit[2]"   (0x1400d9b90)
+0x140237d2c: FIELD u32 "Key32Bit[3]"   (0x1400d9b90)
+0x140237d34:     jmp 0x140237d56
+0x140237d39:     je 0x140237d53   [test r12b, r12b]
+0x140237d4e: FIELD u32 "*((int32_t*)data)"   (0x1400d9c50)
+0x140237d62:     jne 0x140237b14
+0x140237d90:     jl 0x140237aa0   [cmp eax, dword ptr [rsp + 0x98]]
+0x140237d96:     jmp 0x140238150
+0x140237db1:     jne 0x140237e2a   [test eax, eax]
+0x140237dc6:     je 0x140237e07   [test eax, eax]
+0x140237dc8: call 0x1400bfd70
+0x140237dd0: call 0x1400bfd10
+0x140237dfb: call 0x1400bc7d0
+0x140237e07: call 0x1400bfd70
+0x140237e0f: call 0x1400bfd10
+0x140237e25: CALL 0x1400bba90 r8="NuAnimHeader-Keys" rdx="None" r9=None
+0x140237e39:     jle 0x140238150
+0x140237e5f:     jle 0x14023813d   [test ecx, ecx]
+0x140237e77:     jbe 0x140237e7e   [cmp ebx, r8d]
+0x140237e7c:     jmp 0x140237e84
+0x140237e82:     jbe 0x140237e96   [cmp ebx, dword ptr [r13 + 0x78]]
+0x140237e8a: call 0x140110340
+0x140237ea7:     jae 0x14023810d   [cmp edx, 0xe]
+0x140237eb0:     je 0x14023810d   [cmp edx, 4]
+0x140237ec6:     ja 0x14023810d   [cmp edx, 9]
+0x140237eda:     jmp rcx
+0x140237eef: FIELD u32 "packedQuat4[0]"   (0x1400d9b90)
+0x140237f08: FIELD u32 "packedQuat4[1]"   (0x1400d9b90)
+0x140237f21: FIELD u32 "packedQuat4[2]"   (0x1400d9b90)
+0x140237f3a: FIELD u32 "packedQuat4[3]"   (0x1400d9b90)
+0x140237f3f:     jmp 0x140238109
+0x140237f57: FIELD u16 "Key064->a"   (0x1400d9ba0)
+0x140237f70: FIELD u16 "Key064->b"   (0x1400d9ba0)
+0x140237f89: FIELD u16 "Key064->c"   (0x1400d9ba0)
+0x140237fa2: FIELD u16 "Key064->d"   (0x1400d9ba0)
+0x140237fab:     jmp 0x14023810d
+0x140237fc3: FIELD u32 "*((int32_t*)data)"   (0x1400d9c50)
+0x140237fcc:     jmp 0x14023810d
+0x140237fe4: FIELD u8 "KeyShort[0]"   (0x1400d9d00)
+0x140237ffd: FIELD u8 "KeyShort[1]"   (0x1400d9d00)
+0x140238016: FIELD u8 "KeyShort[2]"   (0x1400d9d00)
+0x14023802f: FIELD u8 "KeyShort[3]"   (0x1400d9d00)
+0x140238038:     jmp 0x14023810d
+0x140238050: FIELD u16 "Key1648[0]"   (0x1400d9ba0)
+0x140238069: FIELD u16 "Key1648[1]"   (0x1400d9ba0)
+0x140238082: FIELD u16 "Key1648[2]"   (0x1400d9ba0)
+0x14023809b: FIELD u16 "Key1648[3]"   (0x1400d9ba0)
+0x1402380a4:     jmp 0x14023810d
+0x1402380b9: FIELD u32 "Key32Bit[0]"   (0x1400d9b90)
+0x1402380d2: FIELD u32 "Key32Bit[1]"   (0x1400d9b90)
+0x1402380eb: FIELD u32 "Key32Bit[2]"   (0x1400d9b90)
+0x140238104: FIELD u32 "Key32Bit[3]"   (0x1400d9b90)
+0x140238129:     jle 0x140237e70   [cmp ebx, ecx]
+0x14023814a:     jl 0x140237e50   [cmp edx, dword ptr [r13 + 0x28]]
+0x140238167:     ret
+0x140238168:     jo 0x1402381e5
+0x14023816c:     jge 0x140238192
+0x140238175:     jge 0x14023819a
+0x14023817c:     jo 0x1402381f9
+0x140238180:     jge 0x1402381a6
+0x140238188: call 0x1b823a508
+0x14023818d:     jnp 0x1402381b2
+0x140238191:     jnp 0x1402381b6
+0x140238195:     jl 0x1402381ba
+0x140238199:     jle 0x1402381be
+0x1402381b9:     jg 0x1402381de

@@ -1,0 +1,78 @@
+; function 0x142c71080 (379 insns, 1 chunks)
+0x142c710c8:     jb 0x142c713e5   [cmp r13d, r12d]
+0x142c710df: FIELD u32 "Covariance"   (0x1400da280)
+0x142c710f8: FIELD u16 "NumVertFaces"   (0x1400d9ba0)
+0x142c71111: FIELD u16 "NumVertNeighbours"   (0x1400d9ba0)
+0x142c71133: FIELD u16 "NumPolys"   (0x1400d9ba0)
+0x142c7114c: FIELD u16 "NumVerts"   (0x1400d9ba0)
+0x142c71165: FIELD u16 "NumIndecies"   (0x1400d9ba0)
+0x142c71171:     jne 0x142c71200   [cmp dword ptr [r14 + 0x144], esi]
+0x142c7118d: call 0x142c3c1f0
+0x142c711a0: call 0x142c3c1f0
+0x142c711bd: call 0x142c3c1f0
+0x142c711d1: call 0x142c3c1f0
+0x142c711e4: call 0x142c3c1f0
+0x142c711f7: call 0x142c3c1f0
+0x142c7120a:     jae 0x142c712aa   [cmp si, word ptr [rbx + 0x86]]
+0x142c7122e: FIELD u32 "None"   (0x1400d9b90)
+0x142c71247: FIELD u32 "None"   (0x1400d9b90)
+0x142c71260: FIELD u32 "None"   (0x1400d9b90)
+0x142c71279: FIELD u16 "NumNeighbours"   (0x1400d9ba0)
+0x142c71292: FIELD u16 "VertIndex"   (0x1400d9ba0)
+0x142c712a4:     jl 0x142c71210   [cmp r15d, eax]
+0x142c712bd: FIELD u32 "Normals"   (0x1400db100)
+0x142c712ca:     jae 0x142c71319   [cmp si, word ptr [r12]]
+0x142c712ee: FIELD u16 "NumPoints"   (0x1400d9ba0)
+0x142c71307: FIELD u16 "IndeciesIndex"   (0x1400d9ba0)
+0x142c71317:     jl 0x142c712d0   [cmp r15d, eax]
+0x142c71328:     jae 0x142c7135a   [cmp si, word ptr [rbx + 0x88]]
+0x142c71348: FIELD u16 "Indecies[i]"   (0x1400d9ba0)
+0x142c71358:     jl 0x142c71330   [cmp edi, eax]
+0x142c71363:     jae 0x142c7139a   [cmp si, word ptr [rbx + 0x80]]
+0x142c71388: FIELD u16 "VertFaces[i]"   (0x1400d9ba0)
+0x142c71398:     jl 0x142c71370   [cmp edi, eax]
+0x142c713a3:     jae 0x142c713da   [cmp si, word ptr [rbx + 0x82]]
+0x142c713c8: FIELD u16 "VertNeighbours[i]"   (0x1400d9ba0)
+0x142c713d8:     jl 0x142c713b0   [cmp edi, eax]
+0x142c713e9:     jne 0x142c715ae   [cmp r13d, 3]
+0x142c713f7:     jne 0x142c716c1   [cmp dword ptr [r14 + 0x144], 0]
+0x142c7140f: FIELD u8 "dataBuffer"   (0x1400d9d00)
+0x142c714cd: CALL 0x1400b7bb0 r8="%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX%02hhX" rdx="None" r9=None
+  ; function 0x1400b7bb0 (28 insns, 1 chunks)
+  0x1400b7bd0: call 0x1400b4d80
+  0x1400b7bef: call 0x1435e8468
+  0x1400b7c06:     ret
+0x142c714dd:     jne 0x142c714f0   [cmp byte ptr [rbp - 1], 0]
+0x142c714e5:     je 0x142c714f0   [test rax, rax]
+0x142c714ea:     je 0x142c716c1   [cmp byte ptr [rax], 0]
+0x142c71508:     jne 0x142c71500   [cmp byte ptr [rcx + rax], 0]
+0x142c7150f:     jne 0x142c71555   [test ebx, ebx]
+0x142c7151b:     je 0x142c71540   [cmp qword ptr [rsi], rax]
+0x142c7151d: call 0x1400bfd70
+0x142c71525: call 0x1400bfd10
+0x142c71534: call 0x1400ba2d0
+0x142c7153e:     jmp 0x142c71542
+0x142c71553:     jmp 0x142c71566
+0x142c7155f: call 0x1400b77c0
+0x142c71578: call 0x1435dc710
+0x142c7158f:     je 0x142c716c1   [test rcx, rcx]
+0x142c715a2: call 0x1400b7410
+0x142c715a9:     jmp 0x142c716c1
+0x142c715b2:     jb 0x142c71677   [cmp r13d, 4]
+0x142c715c9:     jne 0x142c715c2   [cmp byte ptr [rax + rdi], 0]
+0x142c715e4: FIELD u32 "length"   (0x1400d9c50)
+0x142c715f1:     jne 0x142c71601   [cmp dword ptr [r14 + 0x144], 0]
+0x142c715f7: call 0x142c3c1f0
+0x142c715ff:     jmp 0x142c71608
+0x142c7160d:     jle 0x142c71643   [cmp dword ptr [rbp + 0x6f], esi]
+0x142c71633: FIELD u8 "data[i]"   (0x1400d9d00)
+0x142c7163d:     jl 0x142c71620   [cmp edi, dword ptr [rbp + 0x6f]]
+0x142c7164b:     jne 0x142c71677   [cmp dword ptr [r14 + 0x144], 0]
+0x142c71657: call 0x142c3d5a0
+0x142c7165c: call 0x1400bfd70
+0x142c71664: call 0x1400bfd10
+0x142c71672: call 0x1400ba2d0
+0x142c7167b:     jne 0x142c716c1   [cmp r13d, 1]
+0x142c71684:     jae 0x142c716c1   [cmp si, word ptr [rbx + 0x86]]
+0x142c716bf:     jl 0x142c71690   [cmp esi, eax]
+0x142c716db:     ret
